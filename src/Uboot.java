@@ -1,13 +1,13 @@
 
-public class Korvette implements Ships {
-/*
- * 
- *  korvette:
- *	  	1 feld 
- *	  	1 runde nachladen
- *	  	- 3 felder groﬂ
- * 
- * */
+public class Uboot implements Ships {
+	/* 
+	 *  uboot:
+	 *  	1 feld 
+	 *  	1 runde nachladen
+	 * 		- 2 felder groﬂ	 * 
+	 */
+	
+	
 	@Override
 	public void groesse() {
 		// TODO Auto-generated method stub

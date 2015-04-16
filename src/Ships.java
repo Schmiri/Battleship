@@ -15,15 +15,6 @@ public interface Ships {
 	 * 		2 felder nebeneinander
 	 * 		2 runden nachladen
 	 * 		- 4 felder groß
-	 *  korvette:
-	 *  	1 feld 
-	 *  	1 runde nachladen
-	 *  	- 3 felder groß
-	 *  uboot:
-	 *  	1 feld 
-	 *  	1 runde nachladen
-	 * 		- 2 felder groß	 * 
-	 * 
 	 * */
 	
 	public  void groesse();
