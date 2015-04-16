@@ -5,7 +5,7 @@ public class Korvette implements Ships {
  *  korvette:
  *	  	1 feld 
  *	  	1 runde nachladen
- *	  	- 3 felder groß
+ *	  	- 3 felder groï¿½
  * 
  * */
 	@Override
@@ -25,5 +25,7 @@ public class Korvette implements Ships {
 		// TODO Auto-generated method stub
 
 	}
+	
+	test test
 
 }
