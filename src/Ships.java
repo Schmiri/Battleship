@@ -1,5 +1,6 @@
 
-public class Ships {
+public interface Ships {
+
 	
 	/*	waagerecht oder senkrecht plaziert
 	 * 	nicht überschneiden
@@ -25,24 +26,7 @@ public class Ships {
 	 * 
 	 * */
 	
-	public void groesse(){
-		//jedes schiff hat eine größe, wird hier festgelegt		
-	}
-	
-	public void schussanzahl(){
-		//wie viel schüsse nebeneinander
-	}
-	
-	public void nachladen(){
-		//wie viel runden nachladen bzw aussetzen
-	}
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-        System.out.println("Hello World!");
-	}
-	
-	
-	
-
+	public  void groesse();
+	public  void schussanzahl();
+	public  void nachladen();
 }
