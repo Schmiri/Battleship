@@ -11,8 +11,7 @@ public class Spiel {
 	
 	
 	/*Methode, die mit Hilfe einer Matrix die Feldgröße bestimmt*/
-	public int[][] feldGroeße(){
-		
+	public int[][] feldGroesse(){	
 		
 	}
 	
