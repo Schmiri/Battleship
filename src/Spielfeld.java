@@ -1,6 +1,12 @@
 
 public class Spielfeld {
 	
-	protected int[][] feld = new int[][];
+	private int[][] feld;
+	
+	public Spielfeld() {
+		this.feld = new int[][];
+	}
+	
+	
 
 }
