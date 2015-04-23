@@ -4,7 +4,7 @@ public class Korvette implements Ships {
  *  korvette:
  *	  	1 feld 
  *	  	1 runde nachladen
- *	  	- 3 felder gro�
+ *	  	- 3 felder groß
  * 
  * */
 	@Override
