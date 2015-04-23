@@ -1,4 +1,4 @@
-public class battleShip  {
+public class Beispiel  {
 
     public static void main(String[] args) {
         int[][] board = new int[5][5];
