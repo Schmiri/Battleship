@@ -3,21 +3,22 @@ public interface Ships {
 
 	
 	/*	waagerecht oder senkrecht plaziert
-	 * 	nicht überschneiden
-	 *  nicht aneinander stoßen
+	 * 	nicht ï¿½berschneiden
+	 *  nicht aneinander stoï¿½en
 	 *  
-	 *  zerstörer: 
-	 *  	große kanonen
+	 *  zerstï¿½rer: 
+	 *  	groï¿½e kanonen
 	 *  	3 felder nebeneinander
 	 * 		3 runden nachladen
-	 * 		- 5 felder groß
+	 * 		- 5 felder groï¿½
 	 * 	fregatte:
 	 * 		2 felder nebeneinander
 	 * 		2 runden nachladen
-	 * 		- 4 felder groß
+	 * 		- 4 felder groï¿½
 	 * */
 	
 	public  void groesse();
 	public  void schussanzahl();
 	public  void nachladen();
 }
+
