@@ -21,7 +21,7 @@ public class Spiel {
 	}
 	
 	/*Methode mit der man die Anzahl der Schiffe bestimmen kann*/
-	public int Spieleranzahl(){
+	public int spielerAnzahl(){
 		
 		
 	}
