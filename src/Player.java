@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 
 public class Player {
 	/*
@@ -7,9 +9,29 @@ public class Player {
 	 * 4. Info ob getroffen wurde
 	 * 
 	 */
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-        System.out.println("Hier ist die PLayer Klasse");
+	public void hasShips(){		
+		 Ships s1 = new Ships();
+	           
 	}
+	public void putShips(){
+		//hier wird abgefragt, wo der spieler die schiffe hin tut
+		
+	}
+	public void hasBoard(){
+		//Spielfeld fesgeben
+		
+	}
+	
+    public void shoot(int[] shoot){
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Row: ");
+        shoot[0] = input.nextInt();
+        shoot[0]--;
+        
+        System.out.print("Column: ");
+        shoot[1] = input.nextInt();
+        shoot[1]--;
+        
+    }
 }
