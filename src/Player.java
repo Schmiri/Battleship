@@ -1,7 +1,7 @@
 
 public class Player {
 	/*
-	 * 1. Auswahl eines verfügbaren Schiffes
+	 * 1. Auswahl eines verfuegbaren Schiffes
 	 * 2. Auswahl eines Gegners.
 	 * 3. Koordinate auf dem Spielfeld auswählen
 	 * 4. Info ob getroffen wurde

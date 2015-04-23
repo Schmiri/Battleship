@@ -1,12 +1,5 @@
-public class Korvette implements Ships {
-/*
- * 
- *  korvette:
- *	  	1 feld 
- *	  	1 runde nachladen
- *	  	- 3 felder gro�
- * 
- * */
+public class Zerstoerer implements Ships {
+
 	@Override
 	public void groesse() {
 		// TODO Auto-generated method stub
@@ -24,4 +17,5 @@ public class Korvette implements Ships {
 		// TODO Auto-generated method stub
 
 	}
+
 }
