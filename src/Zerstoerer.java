@@ -17,5 +17,9 @@ public class Zerstoerer implements Ships {
 		// TODO Auto-generated method stub
 
 	}
+	/* 
+	 * das hat nciht funktioniert
+	 * 
+	 * */
 
 }
