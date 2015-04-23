@@ -20,5 +20,7 @@ public interface Ships {
 	public void groesse();
 	public void schussanzahl();
 	public void nachladen();
+	public void position();
+	
 }
 
