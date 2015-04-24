@@ -28,7 +28,7 @@ public class Spiel {
     public static void main(String[] args) {
         
     	//spielfeld erstellen
-        IO.println("Größe des Spielfelds eingeben  ");
+        System.out.println("Größe des Spielfelds eingeben  ");
         int anz = System.in.readInt();
         int[][] board = new int[anz][anz];
         Spielfeld sf = new Spielfeld();

@@ -14,7 +14,7 @@ public class Spielfeld {
             for(int column=0 ; column < anz ; column++ )
                 board[row][column]=-1;
     }
-    
+    /*
     public static void showBoard(int[][] board){
         System.out.println("\t1 \t2 \t3 \t4 \t5");
         System.out.println();
@@ -36,6 +36,6 @@ public class Spielfeld {
 
     }
 
-	
+	*/
 
 }
