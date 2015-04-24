@@ -23,7 +23,11 @@ public class Player {
 	public void hasBoard(){
 		//Spielfeld festlegen
 		//größe kommt von spiel bzw eingabe
-		
+		/*
+		 * es gibt ein eigenes mit dne plazierten Schiffen
+		 * und es gibt eins, dass die gegner sehen -> wo hingeschossen wurde und wo getroffen wurde
+		 * 
+		 * */
 		
 	}
 	
