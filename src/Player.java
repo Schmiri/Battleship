@@ -10,15 +10,20 @@ public class Player {
 	 * 
 	 */
 	public void hasShips(){		
-		 Ships s1 = new Ships();
-	           
+		 Ships s1 = new Uboot();
+		 Ships s2 = new Korvette();
+		 Ships s3 = new Zerstoerer();
+		 Ships s4 = new Fregatte();
 	}
 	public void putShips(){
 		//hier wird abgefragt, wo der spieler die schiffe hin tut
 		
+		
 	}
 	public void hasBoard(){
-		//Spielfeld fesgeben
+		//Spielfeld festlegen
+		//größe kommt von spiel bzw eingabe
+		
 		
 	}
 	
@@ -33,5 +38,15 @@ public class Player {
         shoot[1] = input.nextInt();
         shoot[1]--;
         
+    }
+    public static boolean hit(int[] shoot, int[][] ships){
+        
+        for(int ship=0 ; ship<ships.length ; ship++){
+            if( shoot[0]==ships[ship][0] && shoot[1]==ships[ship][1]){
+                System.out.printf("You hit a ship located in (%d,%d)\n",shoot[0]+1,shoot[1]+1);
+                return true;
+            }
+        }
+        return false;
     }
 }
