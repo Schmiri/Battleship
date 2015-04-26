@@ -1,40 +1,49 @@
+package battleship;
 /* Klasse beinhaltet die main-Methode
  * in der Klasse wird die Feldgroesse, Schiff- und Spieleranzahl eingestellt 
  * 
  * 
  */
+import java.util.Scanner;
+import java.io.*;
 
 public class Spiel {
-	
-	
-	/*Methode, die mit Hilfe einer Matrix die Feldgroesse bestimmt*/
-	public int[][] feldGroesse(){	
-		
+    
+    
+    /*Methode, die mit Hilfe einer Matrix die Feldgroesse bestimmt
+    public int[][] feldGroesse(){   
+        
 
-	}
-	
-	/*Methode mit der man die Anzahl der Schiffe bestimmen kann*/
-	public int schiffAnzahl(){
-		
-	}
-	
-	/*Methode mit der man die Anzahl der Schiffe bestimmen kann*/
-	public int spielerAnzahl(){
-		
-		
-	}
-	
-	
+    }
+    */
+    /*Methode mit der man die Anzahl der Schiffe bestimmen kann
+    public int schiffAnzahl(){
+        
+    }
+    */
+    /*Methode mit der man die Anzahl der Schiffe bestimmen kann
+    public int spielerAnzahl(){
+        
+        
+    }
+    */
+    
     public static void main(String[] args) {
         
-    	//spielfeld erstellen
-        System.out.println("Größe des Spielfelds eingeben  ");
-        int anz = System.in.readInt();
+        //spielfeld erstellen
+        IO.println("Größe des Spielfelds eingeben (größer als 4 und kleiner als 27) ");
+
+
+        Scanner in = new Scanner(System.in);
+        int anz = in.nextInt();
+      
+        
         int[][] board = new int[anz][anz];
         Spielfeld sf = new Spielfeld();
-        sf.initBoard(board, anz);
         
-    	/*
+        sf.initBoard(board, anz);
+        sf.showBoard(board, anz);
+        /*
         
         int[][] ships = new int[3][2];
         int[] shoot = new int[2];
@@ -67,9 +76,9 @@ public class Spiel {
         showBoard(board);
         */
     }
-	
-	
-	
-		
-	
+    
+    
+    
+        
+    
 }
